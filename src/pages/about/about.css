@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+:root{
+    --color-primary: #60aff5;
+    --hover-button: #3ea1f8;
+    --navbar-bg: #dae5f5f2;
+}
+
+.about-section .about{
+    background-image: url("./../../img/about.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--color-primary);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: .5rem;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, .75);
+}
+
+.about-section .row-about{
+    padding: 2rem 10%;
+}
+
+.about-section .row-about h3{
+    font-size: 2rem;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.about-section .row-about p{
+    font-size: 1rem;
+    line-height: 1.7rem;
+    margin-bottom: 2rem;
+    font-family: 'Nunito', sans-serif;
+}

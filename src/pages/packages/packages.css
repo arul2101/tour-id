@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+:root{
+    --color-primary: #60aff5;
+    --hover-button: #3ea1f8;
+    --navbar-bg: #dae5f5f2;
+}
+
+.packages{
+    padding: 2rem 10%;
+    margin-top: 5rem;
+}
+
+.packages .title-packages, .packages .desc-packages{
+    text-align: center;
+}
+
+.packages .title-packages{
+    font-size: 2rem;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.packages .desc-packages{
+    margin-bottom: 4rem;
+    font-size: 1.3rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.packages .row-card{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    gap: 3rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.packages .row-card .card{
+    overflow: hidden;
+    border-radius: 1rem;
+    height: 33.5rem;
+    width: 25rem;
+    background-color: #fff;
+}
+
+.packages .row-card .card .thumb-image{
+    height: 15rem;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.packages .row-card .card .thumb-image img{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.packages .row-card .card .thumb-image img:hover{
+    transform: scale(1.1);
+    transition: all .50s ease;
+}
+
+.packages .row-card .card .card-desc{
+    padding: .5rem 1rem;
+}
+
+.packages .row-card .card .card-desc h3{
+    font-size: 1.2rem;
+    font-family: 'Merriweather', serif;
+}
+
+.packages .row-card .card .card-desc .icon-country{
+    display: inline-block;
+    margin-right: .3rem;
+}
+
+.packages .row-card .card .card-desc .country{
+    color: grey;
+    font-weight: lighter;
+    font-size: 1rem;
+    padding-top: .4rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.packages .row-card .card .card-desc .pricing{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.packages .row-card .card .card-desc .pricing .price{
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+.packages .row-card .card .card-desc .desc{
+    font-family: 'Libre Baskerville', serif;
+    font-size: .9rem;
+}
+
+
+.packages .row-card .card .card-desc .country::after,.packages .row-card .card .card-desc .desc::before{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 23rem;
+    background-color: #dbdbdb;
+    font-weight: 100;
+    margin: .5rem auto;
+}
+
+.packages .row-card .card .card-desc .btn-details{
+    padding: .5rem 1.5rem;
+    display: inline-block;
+    background-color: var(--color-primary);
+    margin-top: 1rem;
+    border-radius: 1rem;
+    color: #fff;
+}
+
+.packages .row-card .card .card-desc .btn-details:hover{
+    background-color: var(--hover-button);
+}

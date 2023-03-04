@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+
+
+.destinations{
+    padding: 2rem 10%;
+    margin-bottom: 4rem;
+    width: 100%;
+}
+
+.destinations .title-destinations, .destinations .desc-destinations{
+    text-align: center;
+}
+
+.destinations .title-destinations{
+    font-size: 2rem;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.destinations .desc-destinations{
+    margin-bottom: 4rem;
+    font-size: 1.3rem;
+    font-family: 'Nunito', sans-serif;
+}
+
+.destinations .row-destinations .dest-title h3{
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+    text-align: start;
+    font-family: 'PT Serif', serif;
+}
+
+.destinations .row-destinations{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.destinations .row-destinations .dest-title{
+    width: 38%;
+}
+
+.destinations .row-destinations .dest-image{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: -999;
+}
+
+.destinations .row-destinations .dest-title p{
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5rem;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.destinations .row-destinations .dest-image img{
+    width: 49%;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: .4rem;
+    box-shadow: 4px -4px 4px rgba(0, 0, 0, .75);
+}
+
+.destinations .row-destinations .dest-image img:nth-child(2){
+    position: absolute;
+    top: -10%;
+    right: 0;
+}
+
+.destinations .row-2{
+    margin-top: 10rem;
+}
+
+@media (max-width: 832px) {
+    .destinations .row-destinations{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .destinations .reverse{
+        flex-direction: column;
+    }
+
+    .destinations .row-destinations .dest-title{
+        width: 100%;
+    }
+
+    .destinations .row-destinations .dest-title h3{
+        margin-top: 1.5rem;
+    }
+
+    .destinations .row-destinations .dest-image{
+        width: 100%;
+    }
+}

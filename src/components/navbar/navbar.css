@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+:root{
+    --color-primary: #60aff5;
+    --hover-button: #3ea1f8;
+    --navbar-bg: #dae5f5f2;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 10%;
+    background-color: var(--navbar-bg);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+nav .nav-title a{
+    font-size: 2rem;
+    font-weight: 900;
+    color: black;
+    font-family: 'Prata', serif;
+}
+
+nav .nav-title a span{
+    color: var(--color-primary);
+}
+
+nav .nav-menu{
+    position: relative;
+}
+
+nav .nav-menu a{
+    padding: .7rem 1rem;
+    color: black;
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav .nav-menu a:hover{
+    color: var(--color-primary);
+    transition: all .50s ease;
+}
+
+nav .nav-menu .btn-book{
+    background-color: var(--color-primary);
+    color: #fff;
+    border-radius: .4rem;
+}
+
+nav .nav-menu .btn-book:hover{
+    background-color: var(--hover-button);
+    color: #fff;
+}
+
+nav .toggle-burgers{
+    display: none;
+}
+
+@media (max-width: 1018px) {
+    nav .toggle-burgers{
+        display: block;
+        cursor: pointer;
+    }
+
+    nav .toggle-burgers{
+        color: black;
+        font-size: 1.5rem;
+    }
+
+    nav .nav-menu{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 104%;
+        right: -100%;
+        padding: 1rem;
+        border-radius: .5rem;
+        /* background-color: #e3fffd; */
+        background-color: var(--navbar-bg);
+        transition: .5s ease;
+        z-index: 9999;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, .75);
+    }
+
+    nav #toggle-active{
+        right: 10%;
+    }
+}
