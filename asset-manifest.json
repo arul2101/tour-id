@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/tour-id/static/css/main.9f38747b.css",
+    "main.js": "/tour-id/static/js/main.a14f203b.js",
+    "static/media/mcway-falls.jpg": "/tour-id/static/media/mcway-falls.aaf67575461d48f79f5b.jpg",
+    "static/media/1.jpg": "/tour-id/static/media/1.b6a798896e9662128da7.jpg",
+    "static/media/2.jpg": "/tour-id/static/media/2.0f0e86c7938e89dfe67a.jpg",
+    "static/media/5.jpg": "/tour-id/static/media/5.76c9fbb5ae31f2745116.jpg",
+    "static/media/6.jpg": "/tour-id/static/media/6.d581277316f085596f3e.jpg",
+    "static/media/footer.jpg": "/tour-id/static/media/footer.a40bbf3e4af4d68a3c98.jpg",
+    "static/media/fuvahmulah.jpg": "/tour-id/static/media/fuvahmulah.19064fb4197e32297aa5.jpg",
+    "static/media/3.jpg": "/tour-id/static/media/3.1c9c3061800f57f31ae8.jpg",
+    "static/media/cozumel.jpg": "/tour-id/static/media/cozumel.6eb25da068ec8b6a7e53.jpg",
+    "static/media/medhufushi-island-resort.jpg": "/tour-id/static/media/medhufushi-island-resort.d6316f5223a5a34ed497.jpg",
+    "static/media/las-cabanas.jpg": "/tour-id/static/media/las-cabanas.0330bc80ed4ec399b689.jpg",
+    "static/media/santa-monica.jpg": "/tour-id/static/media/santa-monica.3909c466128365fc379c.jpg",
+    "static/media/about.jpg": "/tour-id/static/media/about.412a9850b3f527a9f392.jpg",
+    "static/media/praia-dos-carneiros.jpg": "/tour-id/static/media/praia-dos-carneiros.de9ae9251e9766985220.jpg",
+    "static/media/contact.jpg": "/tour-id/static/media/contact.f87738b75a1db9bf6490.jpg",
+    "static/media/batu-caves.jpg": "/tour-id/static/media/batu-caves.7b93313e19d07befe257.jpg",
+    "static/media/pantai-menganti.jpg": "/tour-id/static/media/pantai-menganti.80e1d95b9d1d296feaf7.jpg",
+    "static/media/4.jpg": "/tour-id/static/media/4.564dd97c212ffde68c62.jpg",
+    "static/media/hero.jpg": "/tour-id/static/media/hero.ad43fefbbabd4b152e16.jpg",
+    "index.html": "/tour-id/index.html",
+    "main.9f38747b.css.map": "/tour-id/static/css/main.9f38747b.css.map",
+    "main.a14f203b.js.map": "/tour-id/static/js/main.a14f203b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f38747b.css",
+    "static/js/main.a14f203b.js"
+  ]
+}
